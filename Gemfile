@@ -1,5 +1,10 @@
 source 'https://rubygems.org'
 
+gem 'aws-sdk'
+gem 'paperclip'
+
+gem 'figaro'
+
 ruby '2.1.2'
 gem 'rails_12factor', group: :production
 
